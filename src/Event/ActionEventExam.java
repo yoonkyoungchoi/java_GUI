@@ -18,7 +18,7 @@ public class ActionEventExam extends JFrame implements ActionListener{
 		setSize(300, 200);
 		setVisible(true);
 		
-		btn1.addActionListener(new MyActionListener());
+		btn1.addActionListener(new myActionListner());
 	}
 
 	public static void main(String[] args) {
